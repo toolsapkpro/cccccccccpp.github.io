@@ -1,0 +1,3401 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from fx.inovelweb.com/share/invite?st=app_share&language=1&r_id=373732&fbclid=IwAR14_qFB8tK7-Li1F2D5Hh3zlpdggPDCGiJhbL-BcOOfNlyFZmfmAyjPfLo_aem_Abst7Xag2cyzmtfNLVHZpXVwW1X6Fqw1QktwrkIB40dHv2T56yukrsFm9u2WQoaP92U by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Dec 2023 22:29:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport"
+		content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+	<title>CashTube</title>
+	<meta name="keywords" content="CashTube" />
+	<meta name="description" content="CashTube" />
+	<link rel="stylesheet" type="text/css" href="../../www.jibagua.com/share/116/assets/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../../www.jibagua.com/share/116/assets/css/invite.css" />
+	<!-- lib.flexible 移动端相对适应比例 必须在浏览器head类 -->
+	<script type="text/javascript" src="../../www.jibagua.com/share/116/assets/js/flexible.js"></script>
+	<script type="text/javascript" src="../../www.jibagua.com/activity/ten/js/vue.min.js"></script>
+	<script>
+		/*!
+ * clipboard.js v2.0.6
+ * https://clipboardjs.com/
+ *
+ * Licensed MIT © Zeno Rocha
+ */
+(function webpackUniversalModuleDefinition(root, factory) {
+    if(typeof exports === 'object' && typeof module === 'object')
+        module.exports = factory();
+    else if(typeof define === 'function' && define.amd)
+        define([], factory);
+    else if(typeof exports === 'object')
+        exports["ClipboardJS"] = factory();
+    else
+        root["ClipboardJS"] = factory();
+})(this, function() {
+    return /******/ (function(modules) { // webpackBootstrap
+        /******/ 	// The module cache
+        /******/ 	var installedModules = {};
+        /******/
+        /******/ 	// The require function
+        /******/ 	function __webpack_require__(moduleId) {
+            /******/
+            /******/ 		// Check if module is in cache
+            /******/ 		if(installedModules[moduleId]) {
+                /******/ 			return installedModules[moduleId].exports;
+                /******/ 		}
+            /******/ 		// Create a new module (and put it into the cache)
+            /******/ 		var module = installedModules[moduleId] = {
+                /******/ 			i: moduleId,
+                /******/ 			l: false,
+                /******/ 			exports: {}
+                /******/ 		};
+            /******/
+            /******/ 		// Execute the module function
+            /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+            /******/
+            /******/ 		// Flag the module as loaded
+            /******/ 		module.l = true;
+            /******/
+            /******/ 		// Return the exports of the module
+            /******/ 		return module.exports;
+            /******/ 	}
+        /******/
+        /******/
+        /******/ 	// expose the modules object (__webpack_modules__)
+        /******/ 	__webpack_require__.m = modules;
+        /******/
+        /******/ 	// expose the module cache
+        /******/ 	__webpack_require__.c = installedModules;
+        /******/
+        /******/ 	// define getter function for harmony exports
+        /******/ 	__webpack_require__.d = function(exports, name, getter) {
+            /******/ 		if(!__webpack_require__.o(exports, name)) {
+                /******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+                /******/ 		}
+            /******/ 	};
+        /******/
+        /******/ 	// define __esModule on exports
+        /******/ 	__webpack_require__.r = function(exports) {
+            /******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+                /******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+                /******/ 		}
+            /******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+            /******/ 	};
+        /******/
+        /******/ 	// create a fake namespace object
+        /******/ 	// mode & 1: value is a module id, require it
+        /******/ 	// mode & 2: merge all properties of value into the ns
+        /******/ 	// mode & 4: return value when already ns object
+        /******/ 	// mode & 8|1: behave like require
+        /******/ 	__webpack_require__.t = function(value, mode) {
+            /******/ 		if(mode & 1) value = __webpack_require__(value);
+            /******/ 		if(mode & 8) return value;
+            /******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+            /******/ 		var ns = Object.create(null);
+            /******/ 		__webpack_require__.r(ns);
+            /******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+            /******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+            /******/ 		return ns;
+            /******/ 	};
+        /******/
+        /******/ 	// getDefaultExport function for compatibility with non-harmony modules
+        /******/ 	__webpack_require__.n = function(module) {
+            /******/ 		var getter = module && module.__esModule ?
+                /******/ 			function getDefault() { return module['default']; } :
+                /******/ 			function getModuleExports() { return module; };
+            /******/ 		__webpack_require__.d(getter, 'a', getter);
+            /******/ 		return getter;
+            /******/ 	};
+        /******/
+        /******/ 	// Object.prototype.hasOwnProperty.call
+        /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+        /******/
+        /******/ 	// __webpack_public_path__
+        /******/ 	__webpack_require__.p = "";
+        /******/
+        /******/
+        /******/ 	// Load entry module and return exports
+        /******/ 	return __webpack_require__(__webpack_require__.s = 6);
+        /******/ })
+    /************************************************************************/
+    /******/ ([
+        /* 0 */
+        /***/ (function(module, exports) {
+
+            function select(element) {
+                var selectedText;
+
+                if (element.nodeName === 'SELECT') {
+                    element.focus();
+
+                    selectedText = element.value;
+                }
+                else if (element.nodeName === 'INPUT' || element.nodeName === 'TEXTAREA') {
+                    var isReadOnly = element.hasAttribute('readonly');
+
+                    if (!isReadOnly) {
+                        element.setAttribute('readonly', '');
+                    }
+
+                    element.select();
+                    element.setSelectionRange(0, element.value.length);
+
+                    if (!isReadOnly) {
+                        element.removeAttribute('readonly');
+                    }
+
+                    selectedText = element.value;
+                }
+                else {
+                    if (element.hasAttribute('contenteditable')) {
+                        element.focus();
+                    }
+
+                    var selection = window.getSelection();
+                    var range = document.createRange();
+
+                    range.selectNodeContents(element);
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+
+                    selectedText = selection.toString();
+                }
+
+                return selectedText;
+            }
+
+            module.exports = select;
+
+
+            /***/ }),
+        /* 1 */
+        /***/ (function(module, exports) {
+
+            function E () {
+                // Keep this empty so it's easier to inherit from
+                // (via https://github.com/lipsmack from https://github.com/scottcorgan/tiny-emitter/issues/3)
+            }
+
+            E.prototype = {
+                on: function (name, callback, ctx) {
+                    var e = this.e || (this.e = {});
+
+                    (e[name] || (e[name] = [])).push({
+                        fn: callback,
+                        ctx: ctx
+                    });
+
+                    return this;
+                },
+
+                once: function (name, callback, ctx) {
+                    var self = this;
+                    function listener () {
+                        self.off(name, listener);
+                        callback.apply(ctx, arguments);
+                    };
+
+                    listener._ = callback
+                    return this.on(name, listener, ctx);
+                },
+
+                emit: function (name) {
+                    var data = [].slice.call(arguments, 1);
+                    var evtArr = ((this.e || (this.e = {}))[name] || []).slice();
+                    var i = 0;
+                    var len = evtArr.length;
+
+                    for (i; i < len; i++) {
+                        evtArr[i].fn.apply(evtArr[i].ctx, data);
+                    }
+
+                    return this;
+                },
+
+                off: function (name, callback) {
+                    var e = this.e || (this.e = {});
+                    var evts = e[name];
+                    var liveEvents = [];
+
+                    if (evts && callback) {
+                        for (var i = 0, len = evts.length; i < len; i++) {
+                            if (evts[i].fn !== callback && evts[i].fn._ !== callback)
+                                liveEvents.push(evts[i]);
+                        }
+                    }
+
+                    // Remove event from queue to prevent memory leak
+                    // Suggested by https://github.com/lazd
+                    // Ref: https://github.com/scottcorgan/tiny-emitter/commit/c6ebfaa9bc973b33d110a84a307742b7cf94c953#commitcomment-5024910
+
+                    (liveEvents.length)
+                        ? e[name] = liveEvents
+                        : delete e[name];
+
+                    return this;
+                }
+            };
+
+            module.exports = E;
+            module.exports.TinyEmitter = E;
+
+
+            /***/ }),
+        /* 2 */
+        /***/ (function(module, exports, __webpack_require__) {
+
+            var is = __webpack_require__(3);
+            var delegate = __webpack_require__(4);
+
+            /**
+             * Validates all params and calls the right
+             * listener function based on its target type.
+             *
+             * @param {String|HTMLElement|HTMLCollection|NodeList} target
+             * @param {String} type
+             * @param {Function} callback
+             * @return {Object}
+             */
+            function listen(target, type, callback) {
+                if (!target && !type && !callback) {
+                    throw new Error('Missing required arguments');
+                }
+
+                if (!is.string(type)) {
+                    throw new TypeError('Second argument must be a String');
+                }
+
+                if (!is.fn(callback)) {
+                    throw new TypeError('Third argument must be a Function');
+                }
+
+                if (is.node(target)) {
+                    return listenNode(target, type, callback);
+                }
+                else if (is.nodeList(target)) {
+                    return listenNodeList(target, type, callback);
+                }
+                else if (is.string(target)) {
+                    return listenSelector(target, type, callback);
+                }
+                else {
+                    throw new TypeError('First argument must be a String, HTMLElement, HTMLCollection, or NodeList');
+                }
+            }
+
+            /**
+             * Adds an event listener to a HTML element
+             * and returns a remove listener function.
+             *
+             * @param {HTMLElement} node
+             * @param {String} type
+             * @param {Function} callback
+             * @return {Object}
+             */
+            function listenNode(node, type, callback) {
+                node.addEventListener(type, callback);
+
+                return {
+                    destroy: function() {
+                        node.removeEventListener(type, callback);
+                    }
+                }
+            }
+
+            /**
+             * Add an event listener to a list of HTML elements
+             * and returns a remove listener function.
+             *
+             * @param {NodeList|HTMLCollection} nodeList
+             * @param {String} type
+             * @param {Function} callback
+             * @return {Object}
+             */
+            function listenNodeList(nodeList, type, callback) {
+                Array.prototype.forEach.call(nodeList, function(node) {
+                    node.addEventListener(type, callback);
+                });
+
+                return {
+                    destroy: function() {
+                        Array.prototype.forEach.call(nodeList, function(node) {
+                            node.removeEventListener(type, callback);
+                        });
+                    }
+                }
+            }
+
+            /**
+             * Add an event listener to a selector
+             * and returns a remove listener function.
+             *
+             * @param {String} selector
+             * @param {String} type
+             * @param {Function} callback
+             * @return {Object}
+             */
+            function listenSelector(selector, type, callback) {
+                return delegate(document.body, selector, type, callback);
+            }
+
+            module.exports = listen;
+
+
+            /***/ }),
+        /* 3 */
+        /***/ (function(module, exports) {
+
+            /**
+             * Check if argument is a HTML element.
+             *
+             * @param {Object} value
+             * @return {Boolean}
+             */
+            exports.node = function(value) {
+                return value !== undefined
+                    && value instanceof HTMLElement
+                    && value.nodeType === 1;
+            };
+
+            /**
+             * Check if argument is a list of HTML elements.
+             *
+             * @param {Object} value
+             * @return {Boolean}
+             */
+            exports.nodeList = function(value) {
+                var type = Object.prototype.toString.call(value);
+
+                return value !== undefined
+                    && (type === '[object NodeList]' || type === '[object HTMLCollection]')
+                    && ('length' in value)
+                    && (value.length === 0 || exports.node(value[0]));
+            };
+
+            /**
+             * Check if argument is a string.
+             *
+             * @param {Object} value
+             * @return {Boolean}
+             */
+            exports.string = function(value) {
+                return typeof value === 'string'
+                    || value instanceof String;
+            };
+
+            /**
+             * Check if argument is a function.
+             *
+             * @param {Object} value
+             * @return {Boolean}
+             */
+            exports.fn = function(value) {
+                var type = Object.prototype.toString.call(value);
+
+                return type === '[object Function]';
+            };
+
+
+            /***/ }),
+        /* 4 */
+        /***/ (function(module, exports, __webpack_require__) {
+
+            var closest = __webpack_require__(5);
+
+            /**
+             * Delegates event to a selector.
+             *
+             * @param {Element} element
+             * @param {String} selector
+             * @param {String} type
+             * @param {Function} callback
+             * @param {Boolean} useCapture
+             * @return {Object}
+             */
+            function _delegate(element, selector, type, callback, useCapture) {
+                var listenerFn = listener.apply(this, arguments);
+
+                element.addEventListener(type, listenerFn, useCapture);
+
+                return {
+                    destroy: function() {
+                        element.removeEventListener(type, listenerFn, useCapture);
+                    }
+                }
+            }
+
+            /**
+             * Delegates event to a selector.
+             *
+             * @param {Element|String|Array} [elements]
+             * @param {String} selector
+             * @param {String} type
+             * @param {Function} callback
+             * @param {Boolean} useCapture
+             * @return {Object}
+             */
+            function delegate(elements, selector, type, callback, useCapture) {
+                // Handle the regular Element usage
+                if (typeof elements.addEventListener === 'function') {
+                    return _delegate.apply(null, arguments);
+                }
+
+                // Handle Element-less usage, it defaults to global delegation
+                if (typeof type === 'function') {
+                    // Use `document` as the first parameter, then apply arguments
+                    // This is a short way to .unshift `arguments` without running into deoptimizations
+                    return _delegate.bind(null, document).apply(null, arguments);
+                }
+
+                // Handle Selector-based usage
+                if (typeof elements === 'string') {
+                    elements = document.querySelectorAll(elements);
+                }
+
+                // Handle Array-like based usage
+                return Array.prototype.map.call(elements, function (element) {
+                    return _delegate(element, selector, type, callback, useCapture);
+                });
+            }
+
+            /**
+             * Finds closest match and invokes callback.
+             *
+             * @param {Element} element
+             * @param {String} selector
+             * @param {String} type
+             * @param {Function} callback
+             * @return {Function}
+             */
+            function listener(element, selector, type, callback) {
+                return function(e) {
+                    e.delegateTarget = closest(e.target, selector);
+
+                    if (e.delegateTarget) {
+                        callback.call(element, e);
+                    }
+                }
+            }
+
+            module.exports = delegate;
+
+
+            /***/ }),
+        /* 5 */
+        /***/ (function(module, exports) {
+
+            var DOCUMENT_NODE_TYPE = 9;
+
+            /**
+             * A polyfill for Element.matches()
+             */
+            if (typeof Element !== 'undefined' && !Element.prototype.matches) {
+                var proto = Element.prototype;
+
+                proto.matches = proto.matchesSelector ||
+                    proto.mozMatchesSelector ||
+                    proto.msMatchesSelector ||
+                    proto.oMatchesSelector ||
+                    proto.webkitMatchesSelector;
+            }
+
+            /**
+             * Finds the closest parent that matches a selector.
+             *
+             * @param {Element} element
+             * @param {String} selector
+             * @return {Function}
+             */
+            function closest (element, selector) {
+                while (element && element.nodeType !== DOCUMENT_NODE_TYPE) {
+                    if (typeof element.matches === 'function' &&
+                        element.matches(selector)) {
+                        return element;
+                    }
+                    element = element.parentNode;
+                }
+            }
+
+            module.exports = closest;
+
+
+            /***/ }),
+        /* 6 */
+        /***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/select/src/select.js
+            var src_select = __webpack_require__(0);
+            var select_default = /*#__PURE__*/__webpack_require__.n(src_select);
+
+// CONCATENATED MODULE: ./src/clipboard-action.js
+            var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+            var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+            function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+
+
+            /**
+             * Inner class which performs selection from either `text` or `target`
+             * properties and then executes copy or cut operations.
+             */
+
+            var clipboard_action_ClipboardAction = function () {
+                /**
+                 * @param {Object} options
+                 */
+                function ClipboardAction(options) {
+                    _classCallCheck(this, ClipboardAction);
+
+                    this.resolveOptions(options);
+                    this.initSelection();
+                }
+
+                /**
+                 * Defines base properties passed from constructor.
+                 * @param {Object} options
+                 */
+
+
+                _createClass(ClipboardAction, [{
+                    key: 'resolveOptions',
+                    value: function resolveOptions() {
+                        var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+                        this.action = options.action;
+                        this.container = options.container;
+                        this.emitter = options.emitter;
+                        this.target = options.target;
+                        this.text = options.text;
+                        this.trigger = options.trigger;
+
+                        this.selectedText = '';
+                    }
+
+                    /**
+                     * Decides which selection strategy is going to be applied based
+                     * on the existence of `text` and `target` properties.
+                     */
+
+                }, {
+                    key: 'initSelection',
+                    value: function initSelection() {
+                        if (this.text) {
+                            this.selectFake();
+                        } else if (this.target) {
+                            this.selectTarget();
+                        }
+                    }
+
+                    /**
+                     * Creates a fake textarea element, sets its value from `text` property,
+                     * and makes a selection on it.
+                     */
+
+                }, {
+                    key: 'selectFake',
+                    value: function selectFake() {
+                        var _this = this;
+
+                        var isRTL = document.documentElement.getAttribute('dir') == 'rtl';
+
+                        this.removeFake();
+
+                        this.fakeHandlerCallback = function () {
+                            return _this.removeFake();
+                        };
+                        this.fakeHandler = this.container.addEventListener('click', this.fakeHandlerCallback) || true;
+
+                        this.fakeElem = document.createElement('textarea');
+                        // Prevent zooming on iOS
+                        this.fakeElem.style.fontSize = '12pt';
+                        // Reset box model
+                        this.fakeElem.style.border = '0';
+                        this.fakeElem.style.padding = '0';
+                        this.fakeElem.style.margin = '0';
+                        // Move element out of screen horizontally
+                        this.fakeElem.style.position = 'absolute';
+                        this.fakeElem.style[isRTL ? 'right' : 'left'] = '-9999px';
+                        // Move element to the same position vertically
+                        var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+                        this.fakeElem.style.top = yPosition + 'px';
+
+                        this.fakeElem.setAttribute('readonly', '');
+                        this.fakeElem.value = this.text;
+
+                        this.container.appendChild(this.fakeElem);
+
+                        this.selectedText = select_default()(this.fakeElem);
+                        this.copyText();
+                    }
+
+                    /**
+                     * Only removes the fake element after another click event, that way
+                     * a user can hit `Ctrl+C` to copy because selection still exists.
+                     */
+
+                }, {
+                    key: 'removeFake',
+                    value: function removeFake() {
+                        if (this.fakeHandler) {
+                            this.container.removeEventListener('click', this.fakeHandlerCallback);
+                            this.fakeHandler = null;
+                            this.fakeHandlerCallback = null;
+                        }
+
+                        if (this.fakeElem) {
+                            this.container.removeChild(this.fakeElem);
+                            this.fakeElem = null;
+                        }
+                    }
+
+                    /**
+                     * Selects the content from element passed on `target` property.
+                     */
+
+                }, {
+                    key: 'selectTarget',
+                    value: function selectTarget() {
+                        this.selectedText = select_default()(this.target);
+                        this.copyText();
+                    }
+
+                    /**
+                     * Executes the copy operation based on the current selection.
+                     */
+
+                }, {
+                    key: 'copyText',
+                    value: function copyText() {
+                        var succeeded = void 0;
+
+                        try {
+                            succeeded = document.execCommand(this.action);
+                        } catch (err) {
+                            succeeded = false;
+                        }
+
+                        this.handleResult(succeeded);
+                    }
+
+                    /**
+                     * Fires an event based on the copy operation result.
+                     * @param {Boolean} succeeded
+                     */
+
+                }, {
+                    key: 'handleResult',
+                    value: function handleResult(succeeded) {
+                        this.emitter.emit(succeeded ? 'success' : 'error', {
+                            action: this.action,
+                            text: this.selectedText,
+                            trigger: this.trigger,
+                            clearSelection: this.clearSelection.bind(this)
+                        });
+                    }
+
+                    /**
+                     * Moves focus away from `target` and back to the trigger, removes current selection.
+                     */
+
+                }, {
+                    key: 'clearSelection',
+                    value: function clearSelection() {
+                        if (this.trigger) {
+                            this.trigger.focus();
+                        }
+                        document.activeElement.blur();
+                        window.getSelection().removeAllRanges();
+                    }
+
+                    /**
+                     * Sets the `action` to be performed which can be either 'copy' or 'cut'.
+                     * @param {String} action
+                     */
+
+                }, {
+                    key: 'destroy',
+
+
+                    /**
+                     * Destroy lifecycle.
+                     */
+                    value: function destroy() {
+                        this.removeFake();
+                    }
+                }, {
+                    key: 'action',
+                    set: function set() {
+                        var action = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'copy';
+
+                        this._action = action;
+
+                        if (this._action !== 'copy' && this._action !== 'cut') {
+                            throw new Error('Invalid "action" value, use either "copy" or "cut"');
+                        }
+                    }
+
+                    /**
+                     * Gets the `action` property.
+                     * @return {String}
+                     */
+                    ,
+                    get: function get() {
+                        return this._action;
+                    }
+
+                    /**
+                     * Sets the `target` property using an element
+                     * that will be have its content copied.
+                     * @param {Element} target
+                     */
+
+                }, {
+                    key: 'target',
+                    set: function set(target) {
+                        if (target !== undefined) {
+                            if (target && (typeof target === 'undefined' ? 'undefined' : _typeof(target)) === 'object' && target.nodeType === 1) {
+                                if (this.action === 'copy' && target.hasAttribute('disabled')) {
+                                    throw new Error('Invalid "target" attribute. Please use "readonly" instead of "disabled" attribute');
+                                }
+
+                                if (this.action === 'cut' && (target.hasAttribute('readonly') || target.hasAttribute('disabled'))) {
+                                    throw new Error('Invalid "target" attribute. You can\'t cut text from elements with "readonly" or "disabled" attributes');
+                                }
+
+                                this._target = target;
+                            } else {
+                                throw new Error('Invalid "target" value, use a valid Element');
+                            }
+                        }
+                    }
+
+                    /**
+                     * Gets the `target` property.
+                     * @return {String|HTMLElement}
+                     */
+                    ,
+                    get: function get() {
+                        return this._target;
+                    }
+                }]);
+
+                return ClipboardAction;
+            }();
+
+            /* harmony default export */ var clipboard_action = (clipboard_action_ClipboardAction);
+// EXTERNAL MODULE: ./node_modules/tiny-emitter/index.js
+            var tiny_emitter = __webpack_require__(1);
+            var tiny_emitter_default = /*#__PURE__*/__webpack_require__.n(tiny_emitter);
+
+// EXTERNAL MODULE: ./node_modules/good-listener/src/listen.js
+            var listen = __webpack_require__(2);
+            var listen_default = /*#__PURE__*/__webpack_require__.n(listen);
+
+// CONCATENATED MODULE: ./src/clipboard.js
+            var clipboard_typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+            var clipboard_createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+            function clipboard_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+            function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+            function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+            /**
+             * Base class which takes one or more elements, adds event listeners to them,
+             * and instantiates a new `ClipboardAction` on each click.
+             */
+
+            var clipboard_Clipboard = function (_Emitter) {
+                _inherits(Clipboard, _Emitter);
+
+                /**
+                 * @param {String|HTMLElement|HTMLCollection|NodeList} trigger
+                 * @param {Object} options
+                 */
+                function Clipboard(trigger, options) {
+                    clipboard_classCallCheck(this, Clipboard);
+
+                    var _this = _possibleConstructorReturn(this, (Clipboard.__proto__ || Object.getPrototypeOf(Clipboard)).call(this));
+
+                    _this.resolveOptions(options);
+                    _this.listenClick(trigger);
+                    return _this;
+                }
+
+                /**
+                 * Defines if attributes would be resolved using internal setter functions
+                 * or custom functions that were passed in the constructor.
+                 * @param {Object} options
+                 */
+
+
+                clipboard_createClass(Clipboard, [{
+                    key: 'resolveOptions',
+                    value: function resolveOptions() {
+                        var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+                        this.action = typeof options.action === 'function' ? options.action : this.defaultAction;
+                        this.target = typeof options.target === 'function' ? options.target : this.defaultTarget;
+                        this.text = typeof options.text === 'function' ? options.text : this.defaultText;
+                        this.container = clipboard_typeof(options.container) === 'object' ? options.container : document.body;
+                    }
+
+                    /**
+                     * Adds a click event listener to the passed trigger.
+                     * @param {String|HTMLElement|HTMLCollection|NodeList} trigger
+                     */
+
+                }, {
+                    key: 'listenClick',
+                    value: function listenClick(trigger) {
+                        var _this2 = this;
+
+                        this.listener = listen_default()(trigger, 'click', function (e) {
+                            return _this2.onClick(e);
+                        });
+                    }
+
+                    /**
+                     * Defines a new `ClipboardAction` on each click event.
+                     * @param {Event} e
+                     */
+
+                }, {
+                    key: 'onClick',
+                    value: function onClick(e) {
+                        var trigger = e.delegateTarget || e.currentTarget;
+
+                        if (this.clipboardAction) {
+                            this.clipboardAction = null;
+                        }
+
+                        this.clipboardAction = new clipboard_action({
+                            action: this.action(trigger),
+                            target: this.target(trigger),
+                            text: this.text(trigger),
+                            container: this.container,
+                            trigger: trigger,
+                            emitter: this
+                        });
+                    }
+
+                    /**
+                     * Default `action` lookup function.
+                     * @param {Element} trigger
+                     */
+
+                }, {
+                    key: 'defaultAction',
+                    value: function defaultAction(trigger) {
+                        return getAttributeValue('action', trigger);
+                    }
+
+                    /**
+                     * Default `target` lookup function.
+                     * @param {Element} trigger
+                     */
+
+                }, {
+                    key: 'defaultTarget',
+                    value: function defaultTarget(trigger) {
+                        var selector = getAttributeValue('target', trigger);
+
+                        if (selector) {
+                            return document.querySelector(selector);
+                        }
+                    }
+
+                    /**
+                     * Returns the support of the given action, or all actions if no action is
+                     * given.
+                     * @param {String} [action]
+                     */
+
+                }, {
+                    key: 'defaultText',
+
+
+                    /**
+                     * Default `text` lookup function.
+                     * @param {Element} trigger
+                     */
+                    value: function defaultText(trigger) {
+                        return getAttributeValue('text', trigger);
+                    }
+
+                    /**
+                     * Destroy lifecycle.
+                     */
+
+                }, {
+                    key: 'destroy',
+                    value: function destroy() {
+                        this.listener.destroy();
+
+                        if (this.clipboardAction) {
+                            this.clipboardAction.destroy();
+                            this.clipboardAction = null;
+                        }
+                    }
+                }], [{
+                    key: 'isSupported',
+                    value: function isSupported() {
+                        var action = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : ['copy', 'cut'];
+
+                        var actions = typeof action === 'string' ? [action] : action;
+                        var support = !!document.queryCommandSupported;
+
+                        actions.forEach(function (action) {
+                            support = support && !!document.queryCommandSupported(action);
+                        });
+
+                        return support;
+                    }
+                }]);
+
+                return Clipboard;
+            }(tiny_emitter_default.a);
+
+            /**
+             * Helper function to retrieve attribute value.
+             * @param {String} suffix
+             * @param {Element} element
+             */
+
+
+            function getAttributeValue(suffix, element) {
+                var attribute = 'data-clipboard-' + suffix;
+
+                if (!element.hasAttribute(attribute)) {
+                    return;
+                }
+
+                return element.getAttribute(attribute);
+            }
+
+            /* harmony default export */ var clipboard = __webpack_exports__["default"] = (clipboard_Clipboard);
+
+            /***/ })
+        /******/ ])["default"];
+});
+	</script>
+	<script>
+		
+var idn = '/static/js/locale/idn.js'
+var en_us = '/static/js/locale/en_us.js'
+var vi = '/static/js/locale/vi.js'
+var spanish = '/static/js/locale/spanish.js'
+var russian = '/static/js/locale/russian.js'
+var portuguese = '/static/js/locale/portuguese.js'
+var thailand = '/static/js/locale/thailand.js'
+var ph = '/static/js/locale/ph.js'
+var tr = '/static/js/locale/tr.js'
+var init = false
+var currentLang = null;
+
+var loadLocale = function(callback, language){
+    if(callback){
+        this.callback = callback;
+    }
+    // 使用传入语言
+    if(language) this.language = language;
+    if(!init){
+        return callGetAppLanguage();
+    }
+    var lang = this.language || getStoregeDaga('local_locale')
+    var url = '';
+    lang = parseInt(lang)
+    //1 菲律宾 2 越南 3 印尼 4 西班牙 5 墨西哥 6哥伦比亚 7 根廷 8 秘鲁 9内瑞拉 10 '美国（英文）  11  新加坡（英文）  12 马来西亚（英文） 13 巴西（葡萄牙语） 14 俄罗斯  15 中国  16 葡萄牙  17 泰国 22菲律宾 23土耳其
+    switch(lang){
+        case 0:
+        case 10:
+        case 11:
+        case 12:
+        case 1: url = en_us; break;
+        case 2: url = vi; break;
+        case 3: url = idn; break;
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9: url = spanish; break;
+        case 13: url = portuguese; break;
+        case 14: url = russian; break;
+        case 15:
+        case 16:
+        case 17: url = thailand; break;
+        case 22: url = ph; break;
+        case 23: url = tr; break;
+        default:
+            url = idn;
+    }
+    url += '?t='+Date.now();
+    var script = document.createElement('script');
+    script.setAttribute('type', 'text/javascript');
+    script.setAttribute('src', url);
+    document.getElementsByTagName('head')[0].appendChild(script);
+    script.addEventListener('load', ev => {
+        this.callback && this.callback(locale)
+    });
+}
+
+function toLoadLocale(lang, version){
+    if(lang){
+        setStoregeDaga('local_locale', lang)
+        setStoregeDaga('version', version)
+    }
+    loadLocale();
+}
+
+// 获取app语言设置
+function callGetAppLanguage() {
+    init = true;
+    if(!window.webkit && !window.indonesia){
+        toLoadLocale();
+        return;
+    }
+    try {
+        if (isIos()) {
+            window.webkit.messageHandlers.callGetAppLanguage.postMessage('toLoadLocale');
+        } else {
+            window.indonesia.callGetAppLanguage('toLoadLocale');
+        }
+    } catch (error) {
+        toLoadLocale('3', '2.0.0');
+    }
+    
+}
+
+// 判断设备为 ios
+function isIos() {
+    var u = navigator.userAgent;
+    if (u.indexOf("iPhone") > -1 || u.indexOf("iOS") > -1) {
+        return true;
+    }
+    return false;
+}
+
+function setStoregeDaga(key, value){
+    try {
+        localStorage.setItem(key, value)
+    } catch (error) {
+        
+    }
+}
+
+function getStoregeDaga(key){
+    try {
+        return localStorage.getItem(key)
+    } catch (error) {
+        return null
+    }
+}
+	</script>
+	<style>
+		.gift-box .message {
+			margin: 0 1rem;
+		}
+		.gift-box .tag-box {
+			font-size: 0.32rem;
+		}
+		._record-box{  margin: 0 0.4rem; margin-top: 0.2667rem; border-radius: 0.4rem; padding: 0.4rem; box-shadow: 0 0 0.2667rem #ececec; border: 1px solid #ececec; background-color: #fff; }
+		._record-box .label{ font-size: 0.4rem; font-weight: bold; margin-bottom: 0.2667rem; }
+		._record-box .list-box{ height: 6.2rem; overflow: hidden; }
+		._record-box .list{ padding-top: 0.0133rem; }
+		._record-box .list .item{ margin-bottom: 0.2667rem; display: flex; align-items: center; padding: 0.2rem 0.3467rem; border-radius: 0.2667rem; background-color: #f4f4f4; }
+		._record-box .list .item .record_logo{ font-size: 0; }
+		._record-box .list .item .record_logo img{ width: 0.6133rem; height: 0.6133rem; border-radius: 50%; }
+		._record-box .list .item .center{ flex: 1; padding-left: 0.3733rem;  }
+		._record-box .list .item .center .h1{ font-size: 0.32rem; }
+		._record-box .list .item .center .h1 .name{ font-size: 0.3467rem; margin-right: 0.24rem; }
+		._record-box .list .item .center .h1 .number{ color: #ff2f2f; margin-left: 0.1067rem; }
+		._record-box .list .item .center .h2{ font-size: 0.2933rem; color: #999999; margin-top: 0.08rem; }
+
+	</style>
+</head>
+
+<body>
+	<img class="head" src="../../www.jibagua.com/logo.png" style="height: 1px; width: 1px;" alt="">
+	<img class="img-bj1" src="../../www.jibagua.com/share/116/assets/images/invite-yun1.png" alt="">
+	<img class="img-bj2" src="../../www.jibagua.com/share/116/assets/images/invite-yun2.png" alt="">
+	<div id="app" style="display: none;">
+		<div class="text-box"><span>CashTube</span>{{locale.txt_desc}}</div>
+
+		<div class="logo">
+			<img src="../../www.jibagua.com/logo.png" alt="">
+		</div>
+
+		<div class="gift-box">
+			<div class="money-box">Over ₦800M{{locale.txt_coin}}</div>
+			<div class="tag-box">
+				<span>CashTube Reward</span>
+			</div>
+			<div class="share-btn copy_code" onclick="" data-clipboard-text='{"r_id":373732}'>Get Started</div>
+			<div class="message">Make upto 800million buy just watching videos ADS</div>
+		</div>
+<!-- 
+		<div class="record-box">
+			<div class="title">{{locale.txt_sucess_h1}}</div>
+			<div class="list-box" id="list">
+				<div class="list">
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/8c14188cc6a4120f30e9ef80bec6661a.jpg" alt="">
+						<span class="nickname">or***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/7ee0994446634651c222b515a7990869.jpg" alt="">
+						<span class="nickname">Ni***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/static/images/avatar.png?t=1" alt="">
+						<span class="nickname">St***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/19342583519a2db6086f5eb77c7b3b91.jpg" alt="">
+						<span class="nickname">E1***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/91a59d1d497767352901d0a8103daffd.jpg" alt="">
+						<span class="nickname">Ca***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/19e78dc5c2ca1f6578ccfe97af572336.jpg" alt="">
+						<span class="nickname">Kr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/f88b89d4b76a44e52e9f0edb26f7bafd.jpg" alt="">
+						<span class="nickname">tr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/daf778379e029eb6180488f514fc7d7d.jpg" alt="">
+						<span class="nickname">Re***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/765169a2088fa383519883d13b346f5c.jpg" alt="">
+						<span class="nickname">Ko***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/10238e022c926abd28b5e399e0163c29.jpg" alt="">
+						<span class="nickname">Ol***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/dd4d5cefb0a05d0ee2ad0ef542529ef0.jpg" alt="">
+						<span class="nickname">Mo***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/567a38532dd37d88bc357ae2e2a55991.jpg" alt="">
+						<span class="nickname">Wa***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/ddf29b84ca6dae9f11ecc55b1868467b.jpg" alt="">
+						<span class="nickname">Ma***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/d028a71aef94463024f62ccb23108b1a.jpg" alt="">
+						<span class="nickname">ko***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/bb089928c4420c20ff644a334107069d.jpg" alt="">
+						<span class="nickname">si***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/88de966d5292ff83df1f5da5f4371166.jpg" alt="">
+						<span class="nickname">Re***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/7b3bfab7b3b8d2c1a9cdb83ee126af4a.jpg" alt="">
+						<span class="nickname">Ta***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/e619b8c3f44a291dcd0c560cab4ac664.jpg" alt="">
+						<span class="nickname">Sw***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/d3c766f2110007701ba0c45b6222a8af.jpg" alt="">
+						<span class="nickname">Ca***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/5184b27b6ca971cdad67ef57a4d9941b.jpg" alt="">
+						<span class="nickname">su***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/2cbc0de68ccfc60d1239671e04ef1624.jpg" alt="">
+						<span class="nickname">Ma***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/8b1c22650b98e539029773cbcec84e6b.jpg" alt="">
+						<span class="nickname">Vi***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-20/583a76e6c357f1de6e85844227e4b96d.jpg" alt="">
+						<span class="nickname">Te***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/035cd5c22564638c1b553cc629fe21e2.jpg" alt="">
+						<span class="nickname">Ol***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/b66b5c0b51b473d5e51805a50689852f.jpg" alt="">
+						<span class="nickname">Ha***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-20/c42c4b4a10b5077e6f41133934dc5097.jpg" alt="">
+						<span class="nickname">Er***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/e1ae5c9820363e38b273bacd1ff4e1c3.jpg" alt="">
+						<span class="nickname">Pr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/63eae5ebd91d8c4f0688e707c62af012.jpg" alt="">
+						<span class="nickname">Sr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/2c54d4c2782bf5f0aef35c766cab5b52.jpg" alt="">
+						<span class="nickname">Na***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/69b6434ed4cf85730b5466663c164791.jpg" alt="">
+						<span class="nickname">My***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/fad487c732215a90418e0eca49456bcd.jpg" alt="">
+						<span class="nickname">mi***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-20/0b2c5c0e8ae9d40c77c51e3986925e69.jpg" alt="">
+						<span class="nickname">Eu***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/403572e72e887e67902dabf78d5ea4b6.jpg" alt="">
+						<span class="nickname">Di***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/2f66c2d764d9ddb968cca6669e657fa5.jpg" alt="">
+						<span class="nickname">Ne***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/f688e181ad5b062edb4523e1e9f5bc04.jpg" alt="">
+						<span class="nickname">Ro***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/4088a272e902299bda83522ce7450ca0.jpg" alt="">
+						<span class="nickname">Am***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/254f47b2d359987db8348d2a695bdc69.jpg" alt="">
+						<span class="nickname">Pr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/b6ba4a356e2c95e69f3e5022d4a23604.jpg" alt="">
+						<span class="nickname">Am***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/bb92097e66a0d2bffdb6b9015aaae265.jpg" alt="">
+						<span class="nickname">Le***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/94e49220a3cf7c7f38db339f771b4842.jpg" alt="">
+						<span class="nickname">Na***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/static/images/avatar.png?t=1" alt="">
+						<span class="nickname">Ra***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/f2e2e69f848690c368cc26fbf4506687.jpg" alt="">
+						<span class="nickname">Sh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/31982a64c763af1a6dafe39f4e2a8164.jpg" alt="">
+						<span class="nickname">Ma***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/fe1e3636d0b744bf43c1349bc240fda2.jpg" alt="">
+						<span class="nickname">Ch***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/81d1041aa8327ed63923a1c09e937851.jpg" alt="">
+						<span class="nickname">sa***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://www.jibagua.com/head_img/4.jpg" alt="">
+						<span class="nickname">G1***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money">$10.00</span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/e7d9af3277799ed0ba8a309946335718.jpg" alt="">
+						<span class="nickname">De***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/938370c6802a9bce4eb922580fc21472.jpg" alt="">
+						<span class="nickname">Be***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/8d6d105acf6270169f871fc18f6f5660.jpg" alt="">
+						<span class="nickname">ti***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/a722af6a9ae0766ef5700e3779d6806e.jpg" alt="">
+						<span class="nickname">Cl***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/ec830e9de862bdf664cc793d5cc5956a.jpg" alt="">
+						<span class="nickname">Sh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/7136646f030f52d0a3f8ff2f0f3924a2.jpg" alt="">
+						<span class="nickname">Ma***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/beb0bf9a94d61acf0bc414e9e994c78c.jpg" alt="">
+						<span class="nickname">Ga***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/4f4607b5cf63ec99108cec2b33879098.jpg" alt="">
+						<span class="nickname">Xl***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/ce62576621accb38ecb64f84cfde9413.jpg" alt="">
+						<span class="nickname">Ja***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/d0cedc26320c3d4c4d8c8c6d22e97431.jpg" alt="">
+						<span class="nickname">Di***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/01594b031ffd537f630047a9189693b6.jpg" alt="">
+						<span class="nickname">Mm***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/85545086731845a5db63d889e09ea042.jpg" alt="">
+						<span class="nickname">Ke***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/4006d72e2cfaa0eae4ae0f8c857c3615.jpg" alt="">
+						<span class="nickname">Bh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/9244bbad882220bd5a5345b227467b5c.jpg" alt="">
+						<span class="nickname">ai***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/1673c93ea143159cff54b59abccac398.jpg" alt="">
+						<span class="nickname">Li***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/d69f072e9377bbbb934810a72a2a8df9.jpg" alt="">
+						<span class="nickname">Sh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/3b77841a66a14b13017d053afbdd3686.jpg" alt="">
+						<span class="nickname">ro***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/65be74e90ff16346c6ec27e759476fed.jpg" alt="">
+						<span class="nickname">Cl***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/7b7ebb2bfe1bc25bfd910824b91e1240.jpg" alt="">
+						<span class="nickname">Ge***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/eeac30b4e68818c6d00ba9ac16df6789.jpg" alt="">
+						<span class="nickname">Sh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/ab76aee5079666db0df4bf7efae38602.jpg" alt="">
+						<span class="nickname">Ka***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/857a9cae0a3ec112569274b45ec1b221.jpg" alt="">
+						<span class="nickname">Te***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/ede58dc1198fade85435d6436f13d57e.jpg" alt="">
+						<span class="nickname">Ar***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/f6ba8cd8f137c0617cdd7831c40d222c.jpg" alt="">
+						<span class="nickname">AT***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/9d98fe39b57d75cfd414d2629c3291ea.jpg" alt="">
+						<span class="nickname">Mo***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/fc0f05f676257435dc7ecd2bb9e18339.jpg" alt="">
+						<span class="nickname">Be***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/9cffb84ab1cd3ca010cf8452989e7d19.jpg" alt="">
+						<span class="nickname">Pr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/7f7aa2df9d50f19c1b0679ab4c54c59a.jpg" alt="">
+						<span class="nickname">Н***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/8dfb7f46e257e1848554fdf62d25ca9d.jpg" alt="">
+						<span class="nickname">am***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/69a805fbae53d6bc8d1b45fce66eeeb2.jpg" alt="">
+						<span class="nickname">Dh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/f64fadb2e6e12bc98af720e937137c18.jpg" alt="">
+						<span class="nickname">Il***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/30e685d030f29e99d81989ffe5ca8e48.jpg" alt="">
+						<span class="nickname">Te***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/2cf0cde84f62a69f503564ac6afb6dc7.jpg" alt="">
+						<span class="nickname">Tu***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/6fcdd73fd9e6556342bda4ec3ab2ea5d.jpg" alt="">
+						<span class="nickname">No***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/07fe70cd564c64c0f6414ede4d05ba7b.jpg" alt="">
+						<span class="nickname">Ny***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/static/images/avatar.png?t=1" alt="">
+						<span class="nickname">An***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/050d9117f1179f37779874ccbc8c062a.jpg" alt="">
+						<span class="nickname">Ma***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/fe30e662cc1c869577c525344d874f6f.jpg" alt="">
+						<span class="nickname">Dh***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/b4743ace2bdfc7ca8911455787f0cb45.jpg" alt="">
+						<span class="nickname">am***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/0dde276f55a05d1cea59984f8f4e7da0.jpg" alt="">
+						<span class="nickname">gi***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/0ccbd44eb9b4a33515c40f60fcd64330.jpg" alt="">
+						<span class="nickname">Yu***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/5d9acf1c14569d93a572eff916dfc472.jpg" alt="">
+						<span class="nickname">Ru***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/becdcb4777f1879b32d5011e6b1f635c.jpg" alt="">
+						<span class="nickname">Py***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/cce2fe3ac9d7db9a8d6c16ef0ad237de.jpg" alt="">
+						<span class="nickname">Be***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/7a37c74f0a3e2d3e6def2c79880fe236.jpg" alt="">
+						<span class="nickname">Pd***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/ec324559fbbd7647fa06d10fcbed1431.jpg" alt="">
+						<span class="nickname">am***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/c6e2219748b4dbe4dcfe884014e002fc.jpg" alt="">
+						<span class="nickname">Cr***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/18f7f4481b6ea5b464df453c93b76eb1.jpg" alt="">
+						<span class="nickname">An***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/06c2f062ea29b8173dd28a26f4b2512a.jpg" alt="">
+						<span class="nickname">Ay***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/9bb50887d3395b386dfa1ab8abf5d032.jpg" alt="">
+						<span class="nickname">Ro***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-20/df387eb66a408103caad15f03cd0591f.jpg" alt="">
+						<span class="nickname">An***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-22/342fbabcd417b215a73144ab7e9bee56.jpg" alt="">
+						<span class="nickname">Si***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/a12279449bdf54ac640f3bf930c6a774.jpg" alt="">
+						<span class="nickname">De***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-23/02559896f57a75cfe5030ca2311691cc.jpg" alt="">
+						<span class="nickname">Ja***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_0">
+						<img class="head" src="https://p.thoroscope.com/uploads/avatar/2021-12-21/4cc51bb932fa0811c350babf059ffaf7.jpg" alt="">
+						<span class="nickname">Ma***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money"></span>
+						<span class="time"></span>
+					</div>
+										<div class="item index_1">
+						<img class="head" src="https://www.jibagua.com/head_img/4.jpg" alt="">
+						<span class="nickname">G1***</span>
+						<span>{{locale.txt_sucess_h2}}</span>
+						<span class="money">$10.00</span>
+						<span class="time"></span>
+					</div>
+									</div>
+			</div>
+		</div> -->
+
+		<div class="_record-box">
+			<div class="label">Users Just Joining Now...</div>
+			<div class="list-box" id="list">
+				<div class="list">
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/8c14188cc6a4120f30e9ef80bec6661a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">or***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/7ee0994446634651c222b515a7990869.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ni***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">13 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/static/images/avatarb73c.png?t=1" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">St***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">18 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/19342583519a2db6086f5eb77c7b3b91.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">E1***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">21 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/91a59d1d497767352901d0a8103daffd.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ca***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">27 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/19e78dc5c2ca1f6578ccfe97af572336.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Kr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">34 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/f88b89d4b76a44e52e9f0edb26f7bafd.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">tr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">40 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/daf778379e029eb6180488f514fc7d7d.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Re***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">42 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/765169a2088fa383519883d13b346f5c.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ko***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">47 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/10238e022c926abd28b5e399e0163c29.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ol***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">57 minutes ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/dd4d5cefb0a05d0ee2ad0ef542529ef0.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Mo***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/567a38532dd37d88bc357ae2e2a55991.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Wa***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/ddf29b84ca6dae9f11ecc55b1868467b.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ma***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/d028a71aef94463024f62ccb23108b1a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">ko***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/bb089928c4420c20ff644a334107069d.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">si***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/88de966d5292ff83df1f5da5f4371166.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Re***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/7b3bfab7b3b8d2c1a9cdb83ee126af4a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ta***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/e619b8c3f44a291dcd0c560cab4ac664.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Sw***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/d3c766f2110007701ba0c45b6222a8af.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ca***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/5184b27b6ca971cdad67ef57a4d9941b.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">su***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/2cbc0de68ccfc60d1239671e04ef1624.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ma***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">1 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/8b1c22650b98e539029773cbcec84e6b.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Vi***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-20/583a76e6c357f1de6e85844227e4b96d.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Te***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/035cd5c22564638c1b553cc629fe21e2.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ol***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/b66b5c0b51b473d5e51805a50689852f.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ha***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-20/c42c4b4a10b5077e6f41133934dc5097.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Er***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/e1ae5c9820363e38b273bacd1ff4e1c3.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Pr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/63eae5ebd91d8c4f0688e707c62af012.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Sr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/2c54d4c2782bf5f0aef35c766cab5b52.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Na***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/69b6434ed4cf85730b5466663c164791.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">My***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/fad487c732215a90418e0eca49456bcd.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">mi***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-20/0b2c5c0e8ae9d40c77c51e3986925e69.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Eu***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/403572e72e887e67902dabf78d5ea4b6.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Di***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">2 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/2f66c2d764d9ddb968cca6669e657fa5.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ne***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/f688e181ad5b062edb4523e1e9f5bc04.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ro***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/4088a272e902299bda83522ce7450ca0.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Am***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/254f47b2d359987db8348d2a695bdc69.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Pr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/b6ba4a356e2c95e69f3e5022d4a23604.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Am***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/bb92097e66a0d2bffdb6b9015aaae265.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Le***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/94e49220a3cf7c7f38db339f771b4842.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Na***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/static/images/avatarb73c.png?t=1" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ra***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/f2e2e69f848690c368cc26fbf4506687.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Sh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/31982a64c763af1a6dafe39f4e2a8164.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ma***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/fe1e3636d0b744bf43c1349bc240fda2.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ch***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">3 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/81d1041aa8327ed63923a1c09e937851.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">sa***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../www.jibagua.com/head_img/4.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">G1***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number">$10.00</span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/e7d9af3277799ed0ba8a309946335718.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">De***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/938370c6802a9bce4eb922580fc21472.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Be***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/8d6d105acf6270169f871fc18f6f5660.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">ti***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/a722af6a9ae0766ef5700e3779d6806e.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Cl***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/ec830e9de862bdf664cc793d5cc5956a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Sh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/7136646f030f52d0a3f8ff2f0f3924a2.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ma***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/beb0bf9a94d61acf0bc414e9e994c78c.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ga***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/4f4607b5cf63ec99108cec2b33879098.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Xl***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">4 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/ce62576621accb38ecb64f84cfde9413.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ja***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/d0cedc26320c3d4c4d8c8c6d22e97431.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Di***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/01594b031ffd537f630047a9189693b6.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Mm***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/85545086731845a5db63d889e09ea042.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ke***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/4006d72e2cfaa0eae4ae0f8c857c3615.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Bh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/9244bbad882220bd5a5345b227467b5c.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">ai***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/1673c93ea143159cff54b59abccac398.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Li***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/d69f072e9377bbbb934810a72a2a8df9.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Sh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/3b77841a66a14b13017d053afbdd3686.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">ro***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/65be74e90ff16346c6ec27e759476fed.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Cl***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/7b7ebb2bfe1bc25bfd910824b91e1240.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ge***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/eeac30b4e68818c6d00ba9ac16df6789.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Sh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">5 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/ab76aee5079666db0df4bf7efae38602.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ka***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/857a9cae0a3ec112569274b45ec1b221.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Te***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/ede58dc1198fade85435d6436f13d57e.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ar***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/f6ba8cd8f137c0617cdd7831c40d222c.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">AT***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/9d98fe39b57d75cfd414d2629c3291ea.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Mo***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/fc0f05f676257435dc7ecd2bb9e18339.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Be***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/9cffb84ab1cd3ca010cf8452989e7d19.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Pr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/7f7aa2df9d50f19c1b0679ab4c54c59a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Н***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/8dfb7f46e257e1848554fdf62d25ca9d.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">am***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/69a805fbae53d6bc8d1b45fce66eeeb2.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Dh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/f64fadb2e6e12bc98af720e937137c18.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Il***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/30e685d030f29e99d81989ffe5ca8e48.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Te***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">6 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/2cf0cde84f62a69f503564ac6afb6dc7.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Tu***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/6fcdd73fd9e6556342bda4ec3ab2ea5d.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">No***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/07fe70cd564c64c0f6414ede4d05ba7b.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ny***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/static/images/avatarb73c.png?t=1" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">An***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/050d9117f1179f37779874ccbc8c062a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ma***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/fe30e662cc1c869577c525344d874f6f.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Dh***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/b4743ace2bdfc7ca8911455787f0cb45.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">am***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/0dde276f55a05d1cea59984f8f4e7da0.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">gi***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/0ccbd44eb9b4a33515c40f60fcd64330.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Yu***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/5d9acf1c14569d93a572eff916dfc472.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ru***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/becdcb4777f1879b32d5011e6b1f635c.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Py***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">7 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/cce2fe3ac9d7db9a8d6c16ef0ad237de.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Be***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/7a37c74f0a3e2d3e6def2c79880fe236.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Pd***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/ec324559fbbd7647fa06d10fcbed1431.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">am***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/c6e2219748b4dbe4dcfe884014e002fc.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Cr***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/18f7f4481b6ea5b464df453c93b76eb1.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">An***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/06c2f062ea29b8173dd28a26f4b2512a.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ay***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/9bb50887d3395b386dfa1ab8abf5d032.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ro***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-20/df387eb66a408103caad15f03cd0591f.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">An***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-22/342fbabcd417b215a73144ab7e9bee56.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Si***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/a12279449bdf54ac640f3bf930c6a774.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">De***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-23/02559896f57a75cfe5030ca2311691cc.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ja***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">8 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../p.thoroscope.com/uploads/avatar/2021-12-21/4cc51bb932fa0811c350babf059ffaf7.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">Ma***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number"></span>
+							</div>
+							<div class="h2">9 hours ago</div>
+						</div>
+					</div>
+										<div class="item">
+						<div class="record_logo">
+							<img src="../../www.jibagua.com/head_img/4.jpg" alt="">
+						</div>
+						<div class="center">
+							<div class="h1">
+								<span class="name">G1***</span>
+								<span>{{locale.txt_sucess_h2}}</span>
+								<span class="number">$10.00</span>
+							</div>
+							<div class="h2">9 hours ago</div>
+						</div>
+					</div>
+									</div>
+			</div>
+		</div>
+
+			<div class="btn copy_code"
+				data-clipboard-text='{"r_id":373732,"share_stamp":1703975362,"share_text":"2fb56c0203a7a9035b0dbd9bebb2a381","page_type":"0","help_time":"0"}'>{{locale.txt_down_text}}</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="../../www.jibagua.com/share/116/assets/js/jquery-3.4.1.min.js"></script>
+	<script>
+		// 加载多语言
+		var language = getQueryString('language')
+		loadLocale(function(e){
+			app.locale = e.CommonShare
+		}, language)
+		var app = new Vue({
+			el: '#app',
+			data: {
+				locale: {},
+				uid: '373732',
+			},
+			created() {
+				$('#app').show();
+				this.starScroll();
+			},
+			methods: {
+				isIos() {
+					var u = navigator.userAgent;
+					if (u.indexOf("iPhone") > -1 || u.indexOf("iOS") > -1) {
+						return true;
+					}
+					return false;
+				},
+				starScroll(){
+					var _this = this;
+					_this.scrollTimer && clearTimeout(_this.scrollTimer)
+					_this.scrollTimer = setTimeout(() => {
+						var $box = $("#list").find(".list:first");
+						$box.css({ marginTop: 0 })
+						var $item = $box.find(".item:first"); 
+						var outerHeight = $item.outerHeight(true)
+						$box.animate({
+							"marginTop": - outerHeight + "px"
+						}, 1000, function() {
+							$box.css({
+								marginTop: 0
+							}).find(".item:first").appendTo($box);
+							_this.starScroll();
+						})
+					}, 600);
+				},
+			},		
+		})
+		$(function () {
+			var vcopy = new ClipboardJS('.copy_code'); vcopy.on('success', function (e) { 
+				var the_href = 'https://play.google.com/store/apps/details?id=com.cashtube.ay';//下载链接
+				window.location = "cashtube://com.cashtube.ay/lunch";//打开某手机上的某个app应用
+				setTimeout(function(){
+					window.location = the_href;//如果超时就跳转到app下载页
+				},500);
+			});
+		});
+		function getQueryString(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+			var str = location.href.split('?')[1] || '';
+			var r = str.match(reg);
+			if (r != null) return unescape(r[2]);
+			return null;
+		}
+
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201831480-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-201831480-1');
+</script>
+<script>
+	
+var idn = '/static/js/locale/idn.js'
+var en_us = '/static/js/locale/en_us.js'
+var vi = '/static/js/locale/vi.js'
+var spanish = '/static/js/locale/spanish.js'
+var russian = '/static/js/locale/russian.js'
+var portuguese = '/static/js/locale/portuguese.js'
+var thailand = '/static/js/locale/thailand.js'
+var ph = '/static/js/locale/ph.js'
+var tr = '/static/js/locale/tr.js'
+var init = false
+var currentLang = null;
+
+var loadLocale = function(callback, language){
+    if(callback){
+        this.callback = callback;
+    }
+    // 使用传入语言
+    if(language) this.language = language;
+    if(!init){
+        return callGetAppLanguage();
+    }
+    var lang = this.language || getStoregeDaga('local_locale')
+    var url = '';
+    lang = parseInt(lang)
+    //1 菲律宾 2 越南 3 印尼 4 西班牙 5 墨西哥 6哥伦比亚 7 根廷 8 秘鲁 9内瑞拉 10 '美国（英文）  11  新加坡（英文）  12 马来西亚（英文） 13 巴西（葡萄牙语） 14 俄罗斯  15 中国  16 葡萄牙  17 泰国 22菲律宾 23土耳其
+    switch(lang){
+        case 0:
+        case 10:
+        case 11:
+        case 12:
+        case 1: url = en_us; break;
+        case 2: url = vi; break;
+        case 3: url = idn; break;
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9: url = spanish; break;
+        case 13: url = portuguese; break;
+        case 14: url = russian; break;
+        case 15:
+        case 16:
+        case 17: url = thailand; break;
+        case 22: url = ph; break;
+        case 23: url = tr; break;
+        default:
+            url = idn;
+    }
+    url += '?t='+Date.now();
+    var script = document.createElement('script');
+    script.setAttribute('type', 'text/javascript');
+    script.setAttribute('src', url);
+    document.getElementsByTagName('head')[0].appendChild(script);
+    script.addEventListener('load', ev => {
+        this.callback && this.callback(locale)
+    });
+}
+
+function toLoadLocale(lang, version){
+    if(lang){
+        setStoregeDaga('local_locale', lang)
+        setStoregeDaga('version', version)
+    }
+    loadLocale();
+}
+
+// 获取app语言设置
+function callGetAppLanguage() {
+    init = true;
+    if(!window.webkit && !window.indonesia){
+        toLoadLocale();
+        return;
+    }
+    try {
+        if (isIos()) {
+            window.webkit.messageHandlers.callGetAppLanguage.postMessage('toLoadLocale');
+        } else {
+            window.indonesia.callGetAppLanguage('toLoadLocale');
+        }
+    } catch (error) {
+        toLoadLocale('3', '2.0.0');
+    }
+    
+}
+
+// 判断设备为 ios
+function isIos() {
+    var u = navigator.userAgent;
+    if (u.indexOf("iPhone") > -1 || u.indexOf("iOS") > -1) {
+        return true;
+    }
+    return false;
+}
+
+function setStoregeDaga(key, value){
+    try {
+        localStorage.setItem(key, value)
+    } catch (error) {
+        
+    }
+}
+
+function getStoregeDaga(key){
+    try {
+        return localStorage.getItem(key)
+    } catch (error) {
+        return null
+    }
+}
+</script>
+</body>
+
+<!-- Mirrored from fx.inovelweb.com/share/invite?st=app_share&language=1&r_id=373732&fbclid=IwAR14_qFB8tK7-Li1F2D5Hh3zlpdggPDCGiJhbL-BcOOfNlyFZmfmAyjPfLo_aem_Abst7Xag2cyzmtfNLVHZpXVwW1X6Fqw1QktwrkIB40dHv2T56yukrsFm9u2WQoaP92U by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Dec 2023 22:29:59 GMT -->
+</html>
